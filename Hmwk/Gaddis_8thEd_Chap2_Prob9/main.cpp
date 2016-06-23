@@ -18,19 +18,20 @@ using namespace std;//Namespace of the System Libraries
 //Execution Begins Here
 int main(int argc, char** argv) {
     //Declare Variables
-    
+    char a; //input from user
     //Input Data
-    cout<<"   *   "<<endl;//the 7 star diamond pattern
-    cout<<"  ***  "<<endl;
-    cout<<" ***** "<<endl;
-    cout<<"*******"<<endl;
-    cout<<" ***** "<<endl;
-    cout<<"  ***  "<<endl;
-    cout<<"   *   "<<endl;
+    cout<<"Choose your character!"<<endl;
+    cin>>a;
     //Process the Data
     
     //Output the Processed Data
-    
+     cout<<"   "<<a<<"   "<<endl;//the 7 star diamond pattern
+    cout<<"  "<<a<<a<<a<<"  "<<endl;
+    cout<<" "<<a<<a<<a<<a<<a<<" "<<endl;
+    cout<<a<<a<<a<<a<<a<<a<<a<<endl;
+    cout<<" "<<a<<a<<a<<a<<a<<" "<<endl;
+    cout<<"  "<<a<<a<<a<<"  "<<endl;
+    cout<<"   "<<a<<"   "<<endl;
     //Exit Stage Right!
     return 0;
 }
