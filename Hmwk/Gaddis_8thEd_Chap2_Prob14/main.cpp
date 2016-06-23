@@ -21,15 +21,13 @@ int main(int argc, char** argv) {
     
     //Input Data
     
+    //Process the Data
+    
+    //Output the Processed Data
     cout<<"Shane Daviau"<<endl;//name
     cout<<"6721 DeGrazia Road, Riverside, California, 92506"<<endl;//address
     cout<<"9512951224"<<endl;//phone number
     cout<<"Film, Video, & TV Production"<<endl;//major
-    
-    //Process the Data
-    
-    //Output the Processed Data
-    
     //Exit Stage Right!
     return 0;
 }
