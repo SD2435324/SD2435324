@@ -18,16 +18,17 @@ using namespace std;//Namespace of the System Libraries
 //Execution Begins Here
 int main(int argc, char** argv) {
     //Declare Variables
-    
+    char a;
     //Input Data
-    cout<<"   *   "<<endl; //beginning of the 7 star pyramid pattern
-    cout<<"  ***  "<<endl;
-    cout<<" ***** "<<endl;
-    cout<<"*******"<<endl;
+    cout<<"pick your favorite letter"<<endl;
+    cin>>a;
     //Process the Data
     
     //Output the Processed Data
-    
+    cout<<"   "<<a<<"   "<<endl; //beginning of the 7 star pyramid pattern
+    cout<<"  "<<a<<a<<a<<"  "<<endl;
+    cout<<" "<<a<<a<<a<<a<<a<<" "<<endl;
+    cout<<a<<a<<a<<a<<a<<a<<a<<endl;
     //Exit Stage Right!
     return 0;
 }
