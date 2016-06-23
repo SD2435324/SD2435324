@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Shane L. Daviau
- * Created on June 22, 2016 7:39 PM
+ * Created on June 22, 2016, 7:40 PM
  * Purpose: Homework
  */
 
@@ -18,20 +18,19 @@ using namespace std;//Namespace of the System Libraries
 //Execution Begins Here
 int main(int argc, char** argv) {
     //Declare Variables
-    char a; //input from user
-    //Input Data
-    cout<<"Choose your character!"<<endl;
-    cin>>a;
-    //Process the Data
     
+    //Input Data
+    char a;
+    int b;
+    float c;
+    double d; //please don't give me an F
+    //Process the Data
+    cout<<"Char = "<<sizeof(a)<<" Bytes"<<endl;
+    cout<<"Int = "<<sizeof(b)<<" Bytes"<<endl;
+    cout<<"Float = "<<sizeof(c)<<" Bytes"<<endl;
+    cout<<"Double = "<<sizeof(d)<<" Bytes"<<endl;
     //Output the Processed Data
-     cout<<"   "<<a<<"   "<<endl;//the 7 star diamond pattern
-    cout<<"  "<<a<<a<<a<<"  "<<endl;
-    cout<<" "<<a<<a<<a<<a<<a<<" "<<endl;
-    cout<<a<<a<<a<<a<<a<<a<<a<<endl;
-    cout<<" "<<a<<a<<a<<a<<a<<" "<<endl;
-    cout<<"  "<<a<<a<<a<<"  "<<endl;
-    cout<<"   "<<a<<"   "<<endl;
+    
     //Exit Stage Right!
     return 0;
 }
